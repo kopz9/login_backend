@@ -1,2 +1,4 @@
-package com.example.demo.dto;public class ResponseDTO {
+package com.example.demo.dto;
+
+public record ResponseDTO(String name, String token) {
 }
